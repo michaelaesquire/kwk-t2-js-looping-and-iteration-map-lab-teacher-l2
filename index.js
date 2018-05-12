@@ -21,3 +21,7 @@ function nameToAttributes(drivers) {
   });
   return carl;
 }
+
+function attributesToPhrase(drivers) {
+  
+}
