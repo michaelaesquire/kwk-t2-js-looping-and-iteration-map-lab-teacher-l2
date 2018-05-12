@@ -9,5 +9,10 @@ function lowerCaseDrivers(drivers) {
 }
 
 function nameToAttributes(drivers) {
-  
+  let newBoi = drivers;
+  let carl = newBoi.map(function (drive) {
+    console.log(drive.toLowerCase());
+    return drive.toLowerCase();
+  });
+  return carl;
 }
