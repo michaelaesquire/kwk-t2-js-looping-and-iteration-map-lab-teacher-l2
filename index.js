@@ -12,15 +12,11 @@ function nameToAttributes(drivers) {
   let newBoi = drivers;
   let carl = newBoi.map(function (drive) {
     let index = drive.indexOf(' ');
-    let firstName = drive.slice(0,index);
-    let lastName = drive.slice(index+1,drive.length);
+    let first = drive.slice(0,index);
+    let last = drive.slice(index+1,drive.length);
     let returnVal = {};
-    returnVal.first = firstName;
-    returnVal.last = lastName;
-//   let returnVal = {
-//      first:firstName;
-//      last:lastName;
-//    }
+    returnVal.firstName = first;
+    returnVal.lastName = last;
     return returnVal;
   });
   return carl;
