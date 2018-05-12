@@ -25,8 +25,9 @@ function nameToAttributes(drivers) {
 function attributesToPhrase(drivers) {
   let newBoi = drivers;
   let carl = newBoi.map(function (drive) {
-//    console.log(drive.toLowerCase());
-    return drive + " is from";
+    named = drive.name;
+    fromed = drive.hometown;
+    return named + " is from " + fromed;
   });
   return carl;
 }
