@@ -7,3 +7,7 @@ function lowerCaseDrivers(drivers) {
   });
   return carl;
 }
+
+function nameToAttributes(drivers) {
+  
+}
