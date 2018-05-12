@@ -14,11 +14,11 @@ function nameToAttributes(drivers) {
     let index = drive.indexOf(' ');
     let firstName = drive.slice(0,index);
     let lastName = drive.slice(index+1,drive.length);
-    let returnVal = { 
+    let returnVal = {
       "first":firstName;
       "last":lastName;
     }
-    return drive.toLowerCase();
+    return returnVal;
   });
   return carl;
 }
