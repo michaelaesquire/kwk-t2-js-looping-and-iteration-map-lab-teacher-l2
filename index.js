@@ -2,7 +2,7 @@
 function lowerCaseDrivers(drivers) {
   let newBoi = drivers;
   let carl = newBoi.map(function (drive) {
-    console.log(drive.toLowerCase());
+//    console.log(drive.toLowerCase());
     return drive.toLowerCase();
   });
   return carl;
@@ -23,5 +23,10 @@ function nameToAttributes(drivers) {
 }
 
 function attributesToPhrase(drivers) {
-  
+  let newBoi = drivers;
+  let carl = newBoi.map(function (drive) {
+//    console.log(drive.toLowerCase());
+    return drive + " is from";
+  });
+  return carl;
 }
