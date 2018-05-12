@@ -11,6 +11,9 @@ function lowerCaseDrivers(drivers) {
 function nameToAttributes(drivers) {
   let newBoi = drivers;
   let carl = newBoi.map(function (drive) {
+    let index = drive.indexOf(' ');
+    let firstName = drive.slice(0,index);
+    let lastName = drive.slice(index+1,drive.length)
     console.log(drive.toLowerCase());
     return drive.toLowerCase();
   });
